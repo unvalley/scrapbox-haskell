@@ -8,12 +8,12 @@ data User = User {
 } deriving (Show, Eq)
 
 data Line = Line {
-  id :: String,
-  text :: String,
-  userId :: String
-  created :: Int
-  updated :: Int
-} deriving (Show, Eq)
+    id :: String,
+    text :: String,
+    userId :: String,
+    created :: Int,
+    updated :: Int
+}  deriving (Show, Eq)
 
 data Page = Page {
   id :: String, 
