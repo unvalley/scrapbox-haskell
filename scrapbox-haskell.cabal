@@ -58,8 +58,10 @@ executable scrapbox-haskell
 
 test-suite scrapbox-haskell-test
   import:           shared-properties, test-depends
-  default-language: Haskell2010
   type:             exitcode-stdio-1.0
   hs-source-dirs:   test
-  main-is:          MyLibSpec
+  main-is:          Spec.hs
+
+  -- cabal-fmt: expand test -Spec
+  other-modules:    MyLibSpec
   build-depends:    scrapbox-haskell
