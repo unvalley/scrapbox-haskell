@@ -1,10 +1,10 @@
 cradle:
   cabal:
-    - path: "src"
-      component: "lib:scrapbox-haskell"
+    - path: 'src'
+      component: 'lib:scrapbox-haskell'
 
-    - path: "app/Main.hs"
-      component: "scrapbox-haskell:exe:scrapbox-haskell"
+    - path: 'app/Main.hs'
+      component: 'scrapbox-haskell:exe:scrapbox-haskell'
 
-    - path: "test"
-      component: "scrapbox-haskell:test:scrapbox-haskell-test"
+    - path: 'test'
+      component: 'scrapbox-haskell:test:scrapbox-haskell-test'
